@@ -1,1 +1,28 @@
-content://ru.zdevs.zarchiver.external/storage/emulated/0/Download/y.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Proposal para kay Crush</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi Crush!</h1>
+        <p>Do you like me?</p>
+        <div class="buttons">
+            <div class="yes-container">
+                <button id="yesBtn">Yes</button>
+                <img id="hand" class="hidden" src="https://c.tenor.com/8F8nkpVvAPwAAAAC/pointing-hand.gif" alt="Pointing Hand">
+            </div>
+            <button id="noBtn">No</button>
+        </div>
+        <div class="extra-buttons"></div>
+        <div id="sadImages" class="hidden"></div>
+        <div class="credit">
+            <p>Created by Dade K</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
